@@ -1,3 +1,4 @@
+// const lib = require('./scenario');
 const lib = require('wat_scenario');
 const puppeteer = require('puppeteer');
 const winston = require(`winston`);
@@ -11,7 +12,7 @@ scenario.addAction(new lib.ClickAction("#save"));
 scenario.addAction(new lib.ClickAction("#" + "kid6704816061153280" + " > a"));
 scenario.addAction(new lib.ClickAction("a[href='javascript:showBibDlg()']"));
 scenario.addAction(new lib.ClickAction("#bibMilk"));
-scenario.addAction(new lib.TypeAction(".ui-autocomplete-input", false));
+// scenario.addAction(new lib.TypeAction(".ui-autocomplete-input", false));
 scenario.addAction(new lib.TypeAction(".ui-autocomplete-input", "10"));
 scenario.addAction(new lib.ClickAction(".defaultDlgButton"));
 
