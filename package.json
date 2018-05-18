@@ -1,0 +1,23 @@
+{
+  "name": "runscenario",
+  "version": "1.0.0",
+  "description": "test to run scenario with puppeteer",
+  "main": "runScenarioWithPuppeteer.js",
+  "scripts": {
+    "test": "node runScenarioWithPuppeteer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webAutomaticTest/runScenario.git"
+  },
+  "author": "wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webAutomaticTest/runScenario/issues"
+  },
+  "homepage": "https://github.com/webAutomaticTest/runScenario#readme",
+  "dependencies": {
+    "puppeteer": "^1.4.0",
+    "winston": "^2.4.2"
+  }
+}
